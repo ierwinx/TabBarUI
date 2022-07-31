@@ -1,10 +1,3 @@
-//
-//  TabBarUIApp.swift
-//  TabBarUI
-//
-//  Created by Erwin Luz León on 27/07/22.
-//
-
 import SwiftUI
 
 @main
