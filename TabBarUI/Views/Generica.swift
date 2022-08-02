@@ -6,7 +6,7 @@ struct Generica: View {
     
     var body: some View {
         Text(text ?? "")
-            .navigationTitle("Generica")
+            .navigationBarTitle("Generica")
     }
 }
 
