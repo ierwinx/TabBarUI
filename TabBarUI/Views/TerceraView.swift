@@ -4,7 +4,7 @@ struct TerceraView: View {
     var body: some View {
         NavigationView {
             Text("Estas en la Vista 3")
-            .navigationTitle("Adjunta")
+            .navigationBarTitle("Adjunta")
         }
     }
 }
