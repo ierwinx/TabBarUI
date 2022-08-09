@@ -13,6 +13,22 @@ struct PrimeraView: View {
                     NavigationLink(destination: Generica(text: "Estas en camara")) {
                         Image(systemName: "camera")
                     }
+                    Menu {
+                        Section {
+                            Button("Config 1") {
+                                
+                            }
+                            Button("Config 2") {
+                                
+                            }
+                            Button("Config 3") {
+                                
+                            }
+                        }
+                    } label: {
+                        Image(systemName: "gear")
+                    }
+
                 }
             }
         }
