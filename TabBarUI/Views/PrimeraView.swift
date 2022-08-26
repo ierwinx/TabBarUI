@@ -15,6 +15,16 @@ struct PrimeraView: View {
                     }
                     Menu {
                         Section {
+                            Button {
+                                
+                            } label: {
+                                Label {
+                                    Text("Configurar")
+                                } icon: {
+                                    Image(systemName: "pencil")
+                                }
+                            }
+
                             Button("Config 1") {
                                 
                             }
