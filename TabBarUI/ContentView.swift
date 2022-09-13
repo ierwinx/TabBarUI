@@ -9,19 +9,16 @@ struct ContentView: View {
             
             PrimeraView().tabItem {
                 Image(systemName: "pencil.circle.fill")
-                    .tint(.red)
                 Text("Primera")
             }
             
             SegundaView().tabItem {
                 Image(systemName: "archivebox.circle.fill")
-                    .tint(.red)
                 Text("Segunda")
             }
             
             TerceraView().tabItem {
                 Image(systemName: "paperclip.circle.fill")
-                    .tint(.red)
                 Text("Tercera")
             }
             
